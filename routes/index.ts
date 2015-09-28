@@ -35,6 +35,11 @@ class Router {
 		router.get('/helloworld', function(req, res) {
 		  res.render('helloworld', { title: 'Hello, World!' });
 		});
+		
+		/* GET altered Hello World page. */
+		router.get('/harroworld', function(req, res) {
+		  res.render('helloworld', { title: 'harro brandon.' });
+		});
 
 		/* Get the Userlist page. */
 		router.get('/userlist', function(req, res) {
