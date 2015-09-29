@@ -79,6 +79,7 @@ class Application {
 	}
 }
 
-var application: Application;
-application = new Application();
+var utilite: Application;
+utilite = new Application();
 // je ne parle aucun francais
+
