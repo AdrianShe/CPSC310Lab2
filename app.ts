@@ -1,5 +1,5 @@
 /// <reference path='.\types\DefinitelyTyped\node\node.d.ts'/>
-	/// <reference path='.\types\DefinitelyTyped\express\express.d.ts'/>
+/// <reference path='.\types\DefinitelyTyped\express\express.d.ts'/>
 	
 interface Error {
 	status?:number;
@@ -79,5 +79,5 @@ class Application {
 	}
 }
 
-var app = new Application()
+var application = new Application();
 
