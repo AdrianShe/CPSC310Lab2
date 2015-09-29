@@ -79,5 +79,5 @@ class Application {
 	}
 }
 
-var application = new Application();
+var utilite = new Application();
 
