@@ -79,5 +79,9 @@ class Application {
 	}
 }
 
-var applikation = new Application();
+var utilite: Application;
+utilite = new Application();
+applikation = new Application();
+// je ne parle aucun francais
+// sperchen sie deustch?
 
